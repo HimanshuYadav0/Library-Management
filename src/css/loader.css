@@ -1,0 +1,18 @@
+
+.rainbow-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height as needed */
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+ 
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  

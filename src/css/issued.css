@@ -1,0 +1,6 @@
+.table{
+    --bs-table-hover-bg:#dae5f7;
+}
+th ,td{
+    vertical-align:middle;
+}

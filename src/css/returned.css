@@ -1,0 +1,70 @@
+
+  
+
+  .service {
+      width: 25%;
+  }
+  .flip-box {
+    background-color: transparent;
+    width: 170px;
+    height: 220px;
+    border: 1px solid #f1f1f1;  
+    border-radius: 10px;
+    margin: 20px 0px 20px 20px;
+  }
+
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+   }
+  
+  
+  .flip-box-front {
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+  }
+  .flip-box-back p{
+      margin-top: -6px;
+  }
+  .flip-box-front img
+  {
+    height: 220px;
+    width: 170px;
+    border-radius: 10px;
+  }
+  
+  .flip-box-back {
+    background-color: #ffffff;
+    color: #000;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    padding: 16px;
+  } 

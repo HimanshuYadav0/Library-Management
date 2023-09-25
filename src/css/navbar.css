@@ -1,0 +1,10 @@
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.navbarc{
+    font-weight: 400;
+    margin-top: -10px;
+    background-color: transparent;
+}

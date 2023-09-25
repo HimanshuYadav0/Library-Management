@@ -1,0 +1,56 @@
+.top {
+    float:right;
+    flex:1;
+    position: absolute;
+    left:265px;
+    right:15px;
+    top:15px;
+    bottom: 15px;
+    background-color: white;
+    border-radius: 0.5em;
+} 
+
+ .chart{
+    background: #ffffff;
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: 0 2px 10px 0 rgba(70,76,79,.2);
+    width: 635px;
+    height: 500px;
+    margin: 30px 0px 10px 0px;
+    margin-left: -315px;
+}
+.chart-2{
+    background: #ffffff;
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: 0 2px 10px 0 rgba(70,76,79,.2);
+    height: 300px;
+    position: absolute;
+    right: 0;
+    margin: 30px 5px 0 0;
+    
+}
+
+#loading-animation{
+   
+    margin: 0px auto;
+}
+
+.rainbow-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Set the height to occupy the entire viewport height */
+    
+  }
+  
+  /* Hide the loader initially */
+  .hidden {
+    display: none;
+  }
+  
+  /* Show the loader when isLoading is true */
+  .visible {
+    display: flex; /* Use flex to show the loader */
+  }

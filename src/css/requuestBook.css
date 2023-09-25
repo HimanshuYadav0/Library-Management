@@ -1,0 +1,63 @@
+.edges {
+    float:right;
+    position: absolute;
+    left:265px;
+    right:15px;
+    top:15px;
+    bottom: 15px;
+    border-radius: 0.5em;
+}
+
+.bookLabel{
+    display: inline-block !important;
+    min-width: 150px !important;
+    /* background-color: aquamarine; */
+    text-align: left;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+.submitBtn{
+    margin: auto;
+    transform: translateX(-365%);
+    margin-top: 30px;
+}
+.reqbook{
+    filter:none;
+    height: 380px;
+    width:380px;
+   position: absolute;
+   top:10px;
+   right:30px;
+}
+.req-form{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+.request-form{
+  margin: 0px 0 0 0px;
+  display: inline-block;
+  background-color: aquamarine;
+  width: auto;
+  height: auto;
+}
+.accept{
+    margin-left: -20px;
+    margin-right: -60px;
+}
+.approved{
+color: green;
+}
+.rejected{
+    color: red;
+}
+.pending{
+    color: grey;
+}
+.list{
+    margin-top: 50px;
+}
+.table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "track-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "npm i",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Team-B47",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "promise": "^8.1.0"
+  }
+}
